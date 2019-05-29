@@ -1,5 +1,7 @@
 {
   "name": "crashCourse",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

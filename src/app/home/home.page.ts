@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  miVariable = 'Hola ke ase!';
+
+  constructor() { }
+
+  updateMiVariable() {
+    this.miVariable = 'Chao ke aseeeee';
+  }
 
 }
